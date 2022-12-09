@@ -1,0 +1,21 @@
+# ninja log v5
+8	164	1670613897466575800	CMakeFiles/cpp_exercises.dir/main.cpp.o	943991a499f38d0d
+27	1411	1670613511195434900	CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise9.cpp.o	1322e85bfc70d355
+28	1774	1670612835211842200	CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise6.cpp.o	b77b4f5c22d216e2
+1409	1834	1670613925208540000	cpp_exercises.exe	36a5af9bd9607bdb
+10	1408	1670613924811066500	CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise10.cpp.o	601f3275e1c4587c
+49	1979	1670610907745703700	CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise1.cpp.o	9ebb700f23e8f9ef
+7	1631	1670610811011196100	CMakeFiles/cpp_exercises.dir/ch3/ch2_drill.cpp.o	37d6839a5e65b32a
+9	1279	1670613020721931000	CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise8.cpp.o	37fc307186d91517
+2	239	1670613947661997100	build.ninja	b69242ba53a3a96
+8	1915	1670610907644974200	CMakeFiles/cpp_exercises.dir/ch3/ch3_drill.cpp.o	ae48d082ea6dc0b
+40	1694	1670610811081349800	CMakeFiles/cpp_exercises.dir/ch3/ch2_exercise1.cpp.o	cbfe6f6d908bf2ba
+8	1368	1670612010500735500	CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise4.cpp.o	bb34a020fed5b845
+28	1943	1670613004852237000	CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise7.cpp.o	6f3344f5650c45bc
+38	2161	1670611793054733000	CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise3.cpp.o	86e939a5ec5af23c
+9	1356	1670612117461218400	CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise5.cpp.o	74d04a134c2824ea
+7	1370	1670611161278767600	CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise2.cpp.o	f645da8735884bd3
+7	1493	1670609607163986000	CMakeFiles/cpp_exercises.dir/ch2/ch2_drill.cpp.o	5aa1048be30d0a59
+16	417	1670614637497688000	CMakeFiles/cpp_exercises.dir/main.cpp.o	943991a499f38d0d
+49	2046	1670614639126042100	CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise11.cpp.o	1212c76944c0ffff
+2046	2700	1670614639736175800	cpp_exercises.exe	2e5bbbad4df9ccea

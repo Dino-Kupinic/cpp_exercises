@@ -49,17 +49,83 @@ cmake_ninja_workdir = /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/cm
 
 build cmake_object_order_depends_target_cpp_exercises: phony || CMakeFiles/cpp_exercises.dir
 
+build CMakeFiles/cpp_exercises.dir/ch3/ch3_drill.cpp.o: CXX_COMPILER__cpp_exercises_Debug /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/ch3/ch3_drill.cpp || cmake_object_order_depends_target_cpp_exercises
+  DEP_FILE = CMakeFiles/cpp_exercises.dir/ch3/ch3_drill.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cpp_exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir/ch3
+
+build CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise1.cpp.o: CXX_COMPILER__cpp_exercises_Debug /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/ch3/ch3_exercise1.cpp || cmake_object_order_depends_target_cpp_exercises
+  DEP_FILE = CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise1.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cpp_exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir/ch3
+
 build CMakeFiles/cpp_exercises.dir/main.cpp.o: CXX_COMPILER__cpp_exercises_Debug /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/main.cpp || cmake_object_order_depends_target_cpp_exercises
   DEP_FILE = CMakeFiles/cpp_exercises.dir/main.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++2a
   OBJECT_DIR = CMakeFiles/cpp_exercises.dir
   OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir
 
-build CMakeFiles/cpp_exercises.dir/ch2/ch2_drill.cpp.o: CXX_COMPILER__cpp_exercises_Debug /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/ch2/ch2_drill.cpp || cmake_object_order_depends_target_cpp_exercises
-  DEP_FILE = CMakeFiles/cpp_exercises.dir/ch2/ch2_drill.cpp.o.d
+build CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise2.cpp.o: CXX_COMPILER__cpp_exercises_Debug /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/ch3/ch3_exercise2.cpp || cmake_object_order_depends_target_cpp_exercises
+  DEP_FILE = CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise2.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++2a
   OBJECT_DIR = CMakeFiles/cpp_exercises.dir
-  OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir/ch2
+  OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir/ch3
+
+build CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise3.cpp.o: CXX_COMPILER__cpp_exercises_Debug /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/ch3/ch3_exercise3.cpp || cmake_object_order_depends_target_cpp_exercises
+  DEP_FILE = CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise3.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cpp_exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir/ch3
+
+build CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise4.cpp.o: CXX_COMPILER__cpp_exercises_Debug /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/ch3/ch3_exercise4.cpp || cmake_object_order_depends_target_cpp_exercises
+  DEP_FILE = CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise4.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cpp_exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir/ch3
+
+build CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise5.cpp.o: CXX_COMPILER__cpp_exercises_Debug /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/ch3/ch3_exercise5.cpp || cmake_object_order_depends_target_cpp_exercises
+  DEP_FILE = CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise5.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cpp_exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir/ch3
+
+build CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise6.cpp.o: CXX_COMPILER__cpp_exercises_Debug /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/ch3/ch3_exercise6.cpp || cmake_object_order_depends_target_cpp_exercises
+  DEP_FILE = CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise6.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cpp_exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir/ch3
+
+build CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise7.cpp.o: CXX_COMPILER__cpp_exercises_Debug /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/ch3/ch3_exercise7.cpp || cmake_object_order_depends_target_cpp_exercises
+  DEP_FILE = CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise7.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cpp_exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir/ch3
+
+build CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise8.cpp.o: CXX_COMPILER__cpp_exercises_Debug /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/ch3/ch3_exercise8.cpp || cmake_object_order_depends_target_cpp_exercises
+  DEP_FILE = CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise8.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cpp_exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir/ch3
+
+build CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise9.cpp.o: CXX_COMPILER__cpp_exercises_Debug /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/ch3/ch3_exercise9.cpp || cmake_object_order_depends_target_cpp_exercises
+  DEP_FILE = CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise9.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cpp_exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir/ch3
+
+build CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise10.cpp.o: CXX_COMPILER__cpp_exercises_Debug /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/ch3/ch3_exercise10.cpp || cmake_object_order_depends_target_cpp_exercises
+  DEP_FILE = CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise10.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cpp_exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir/ch3
+
+build CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise11.cpp.o: CXX_COMPILER__cpp_exercises_Debug /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/ch3/ch3_exercise11.cpp || cmake_object_order_depends_target_cpp_exercises
+  DEP_FILE = CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise11.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cpp_exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir/ch3
 
 
 # =============================================================================
@@ -69,7 +135,7 @@ build CMakeFiles/cpp_exercises.dir/ch2/ch2_drill.cpp.o: CXX_COMPILER__cpp_exerci
 #############################################
 # Link the executable cpp_exercises.exe
 
-build cpp_exercises.exe: CXX_EXECUTABLE_LINKER__cpp_exercises_Debug CMakeFiles/cpp_exercises.dir/main.cpp.o CMakeFiles/cpp_exercises.dir/ch2/ch2_drill.cpp.o
+build cpp_exercises.exe: CXX_EXECUTABLE_LINKER__cpp_exercises_Debug CMakeFiles/cpp_exercises.dir/ch3/ch3_drill.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise1.cpp.o CMakeFiles/cpp_exercises.dir/main.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise2.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise3.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise4.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise5.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise6.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise7.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise8.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise9.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise10.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise11.cpp.o
   FLAGS = -g
   LINK_FLAGS = -Wl,--enable-auto-import
   OBJECT_DIR = CMakeFiles/cpp_exercises.dir
