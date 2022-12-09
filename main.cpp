@@ -8,6 +8,6 @@
 //#include "ch6/ch6.h"
 
 int main() {
-    ch4_drill();
+    ch4_exercise2();
     return 0;
 }
