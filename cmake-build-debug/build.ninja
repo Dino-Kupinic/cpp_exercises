@@ -127,6 +127,12 @@ build CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise11.cpp.o: CXX_COMPILER__cpp_e
   OBJECT_DIR = CMakeFiles/cpp_exercises.dir
   OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir/ch3
 
+build CMakeFiles/cpp_exercises.dir/ch4/ch4_drill.cpp.o: CXX_COMPILER__cpp_exercises_Debug /cygdrive/c/Schule/IT/Programme/C++/Clion/cpp-exercises/ch4/ch4_drill.cpp || cmake_object_order_depends_target_cpp_exercises
+  DEP_FILE = CMakeFiles/cpp_exercises.dir/ch4/ch4_drill.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cpp_exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_exercises.dir/ch4
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpp_exercises
@@ -135,7 +141,7 @@ build CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise11.cpp.o: CXX_COMPILER__cpp_e
 #############################################
 # Link the executable cpp_exercises.exe
 
-build cpp_exercises.exe: CXX_EXECUTABLE_LINKER__cpp_exercises_Debug CMakeFiles/cpp_exercises.dir/ch3/ch3_drill.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise1.cpp.o CMakeFiles/cpp_exercises.dir/main.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise2.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise3.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise4.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise5.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise6.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise7.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise8.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise9.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise10.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise11.cpp.o
+build cpp_exercises.exe: CXX_EXECUTABLE_LINKER__cpp_exercises_Debug CMakeFiles/cpp_exercises.dir/ch3/ch3_drill.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise1.cpp.o CMakeFiles/cpp_exercises.dir/main.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise2.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise3.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise4.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise5.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise6.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise7.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise8.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise9.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise10.cpp.o CMakeFiles/cpp_exercises.dir/ch3/ch3_exercise11.cpp.o CMakeFiles/cpp_exercises.dir/ch4/ch4_drill.cpp.o
   FLAGS = -g
   LINK_FLAGS = -Wl,--enable-auto-import
   OBJECT_DIR = CMakeFiles/cpp_exercises.dir
