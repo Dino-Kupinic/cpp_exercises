@@ -11,7 +11,7 @@ int ch4_exercise1() {
     string disliked2 = "Walnuts";
     string input;
 
-    while (true) {
+    while (cin >> input) {
         cout << endl;
         cin >> input;
         if (input == disliked || input == disliked2) {

@@ -23,7 +23,7 @@ int ch4_drill() {
 
     string unit;
 
-    while (true) {
+    while (cin >> val1) {
         cout << endl;
         cin >> val1 >> unit;
 
