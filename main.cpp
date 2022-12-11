@@ -8,7 +8,7 @@
 //#include "ch6/ch6.h"
 
 int main() {
-
+    ch5_exercise6();
 
     return 0;
 }

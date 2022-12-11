@@ -9,7 +9,9 @@ using namespace std;
 
 int ch5_drill() {
     try {
-
+        cout << "Success!\n";
+        string res {"7"};
+        vector<int> v(10);
         keep_window_open();
         return 0;
     } catch (exception& e) {

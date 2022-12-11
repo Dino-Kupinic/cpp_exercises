@@ -3,5 +3,5 @@
 //
 
 /*
- * Try this exercises are just about finding errors in code
+ * Try this exercises are just about finding common errors in code
  */
