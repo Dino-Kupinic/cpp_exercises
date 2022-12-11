@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int ch4_exercise11() {
+int ch4_exercise12() {
     vector<int> prime_numbers;
     int max;
 

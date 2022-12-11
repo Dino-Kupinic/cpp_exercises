@@ -17,5 +17,6 @@ int ch4_exercise8();
 int ch4_exercise9();
 int ch4_exercise10();
 int ch4_exercise11();
+int ch4_exercise12();
 
 #endif //CPP_EXERCISES_CH4_H
