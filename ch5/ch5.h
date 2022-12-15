@@ -14,6 +14,10 @@ int ch5_exercise5();
 int ch5_exercise6();
 int ch5_exercise7();
 int ch5_exercise8();
-int ch5_exercise9();
+int ch5_exercise10();
+int ch5_exercise11();
+int ch5_exercise12();
+int ch5_exercise13();
+int ch5_exercise14();
 
 #endif //CPP_EXERCISES_CH5_H
