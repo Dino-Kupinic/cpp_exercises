@@ -10,7 +10,7 @@
 //#include "ch8/ch8.h"
 
 int main() {
-    test();
+    ch7_drill();
 
     return 0;
 }

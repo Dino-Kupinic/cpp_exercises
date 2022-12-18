@@ -1,13 +1,4 @@
-
-/*
-	calculator08buggy.cpp
-
-	Helpful comments removed.
-
-	We have inserted 3 bugs that the compiler will catch and 3 that it won't.
-*/
-
-#include "std_lib_facilities.h"
+#include "../std_lib_facilities.h"
 
 struct Token {
     char kind;
@@ -15,6 +6,7 @@ struct Token {
     string name;
     Token(char ch) :kind(ch), value(0) { }
     Token(char ch, double val) :kind(ch), value(val) { }
+    Token(char ch, string s) :kind(ch), name(s) { }
 };
 
 class Token_stream {
@@ -240,7 +232,7 @@ void calculate()
         }
 }
 
-int main()
+int ch7_drill()
 
 try {
     calculate();

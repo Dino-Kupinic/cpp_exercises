@@ -176,7 +176,7 @@ inline void simple_error(string s)	// write ``error: s and exit program
 template<class R, class A> R narrow_cast(const A& a)
 {
     R r = R(a);
-    if (A(r) != a) error(string("info loss"));
+    if (A(r) != a) error(string("info.txt loss"));
     return r;
 }
 
