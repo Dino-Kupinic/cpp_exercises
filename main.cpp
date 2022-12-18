@@ -6,11 +6,11 @@
 #include "ch4/ch4.h"
 #include "ch5/ch5.h"
 #include "ch6/ch6.h"
-//#include "ch7/ch7.h"
+#include "ch7/ch7.h"
 //#include "ch8/ch8.h"
 
 int main() {
-    ch5_exercise11();
+    test();
 
     return 0;
 }
