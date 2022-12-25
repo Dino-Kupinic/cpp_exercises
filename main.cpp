@@ -11,7 +11,7 @@
 #include "ch8/ch8_drill/my.h"
 
 int main() {
-    exercise3();
+    ch8_exercise2();
 
     return 0;
 }
