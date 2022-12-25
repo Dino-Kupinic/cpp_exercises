@@ -7,10 +7,11 @@
 #include "ch5/ch5.h"
 #include "ch6/ch6.h"
 #include "ch7/ch7.h"
-//#include "ch8/ch8.h"
+#include "ch8/ch8.h"
+#include "ch8/ch8_drill/my.h"
 
 int main() {
-    ch7_drill();
+    exercise3();
 
     return 0;
 }
