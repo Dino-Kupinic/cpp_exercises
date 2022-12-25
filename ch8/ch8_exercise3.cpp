@@ -13,7 +13,7 @@ vector<int> fibonacci(int x, int y, vector<int>& v, int n);
 int ch8_exercise3() {
     vector<int> vec;
 
-    print2("fibo", fibonacci(1,2,vec,10));
+    print2("fibo", fibonacci(1, 2, vec, 10));
 
     return 0;
 }
