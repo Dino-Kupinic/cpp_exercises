@@ -7,7 +7,7 @@
 
 using namespace std;
 
-void print2(string_view label, vector<int> v);
+void print2(string_view label, const vector<int>& v);
 vector<int> fibonacci(int x, int y, vector<int>& v, int n);
 
 int ch8_exercise3() {
@@ -18,7 +18,7 @@ int ch8_exercise3() {
     return 0;
 }
 
-void print2(string_view label, vector<int> v) {
+void print2(string_view label, const vector<int>& v) {
     for (int i : v) {
         cout << label << ": " << i << endl;
     }
