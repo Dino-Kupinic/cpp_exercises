@@ -9,9 +9,12 @@
 #include "ch7/ch7.h"
 #include "ch8/ch8.h"
 #include "ch8/ch8_drill/my.h"
+#include "ch9/ch9.h"
+#include "ch9/ch9_drill/ch9_drill.h"
+
 
 int main() {
-    ch8_exercise9();
+    ch9_drill_p1();
 
     return 0;
 }
