@@ -7,36 +7,23 @@
 using namespace std;
 
 struct Date {
-    int y;
-    int m;
-    int d;
+    int y, m, d;
+    Date(int y, int m, int d) : y{y}, m{m}, d{d} {};
+    void add_day2(int n);
 };
 
-void init_day(Date& dd, int y, int m, int d) {
-    bool validMonth = m >= 1 && m <= 12;
-    bool validDay = d >= 1 && d <= 31;
-    if (validMonth && validDay) {
-        dd.y = y;
-        dd.m = m;
-        dd.d = d;
-    } else {
-        cout << "\nInvalid Date";
-    }
-}
-
-void add_day(Date& dd, int n) {
-    if (dd.d + n <= 31) {
-        dd.d += n;
+void Date::add_day2(int n) {
+    if (d + n <= 31) {
+        d += n;
     } else {
         cout << "\nCan't go beyond 31\n";
     }
 }
 
-int ch9_drill_p1() {
-    Date today;
+int ch9_drill_p2() {
+    Date today (2000,2,20);
 
-    init_day(today,2000,2,20);
-    add_day(today,20);
+    today.add_day2(5);
 
     cout << today.y << '\n' << today.m << '\n' << today.d;
 

@@ -14,7 +14,7 @@
 
 
 int main() {
-    ch9_drill_p1();
+    ch9_drill_p2();
 
     return 0;
 }
