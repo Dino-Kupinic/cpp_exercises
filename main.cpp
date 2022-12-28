@@ -11,10 +11,11 @@
 #include "ch8/ch8_drill/my.h"
 #include "ch9/ch9.h"
 #include "ch9/ch9_drill/ch9_drill.h"
+#include "ch9/BookLib/Book.h"
 
 
 int main() {
-    ch9_exercise2();
+    ch9_exercise5_6_7_8_9();
 
     return 0;
 }
