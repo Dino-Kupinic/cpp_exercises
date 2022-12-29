@@ -5,7 +5,7 @@
 #include "Book.h"
 
 int ch9_exercise5_6_7_8_9() {
-    BookLib::Book book ("1919191919191", "testBook", "Me", 2022, false, BookLib::Genre::biography);
+    Book_lib::Book book ("1919191919191", "testBook", "Me", 2022, false, Book_lib::Genre::biography);
 
     std::cout << book << std::endl;
     book.check_in();

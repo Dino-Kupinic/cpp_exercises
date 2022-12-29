@@ -4,7 +4,7 @@
 
 #include "Book.h"
 
-namespace BookLib {
+namespace Book_lib {
     Book::Book(std::string_view ISBN,
                std::string_view title,
                std::string_view author,

@@ -7,7 +7,7 @@
 
 #include <iostream>
 
-namespace BookLib {
+namespace Book_lib {
     enum class Genre {
         fiction, nonfiction, periodical, biography, children
     };
@@ -32,7 +32,6 @@ namespace BookLib {
         bool is_valid();
         void check_in();
         void check_out();
-
     private:
         int copyright_date; // year
         bool book_is_checked;

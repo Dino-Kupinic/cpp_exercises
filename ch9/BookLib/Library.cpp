@@ -4,6 +4,6 @@
 
 #include "Library.h"
 
-namespace BookLib {
+namespace Book_lib {
 
 }

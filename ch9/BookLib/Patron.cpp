@@ -4,7 +4,7 @@
 
 #include "Patron.h"
 
-namespace BookLib {
+namespace Book_lib {
     bool hasFees(Patron& user) {
         return user.get_fees() > 0;
     }

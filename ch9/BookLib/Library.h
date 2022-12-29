@@ -10,17 +10,19 @@
 #include "Patron.h"
 #include "Book.h"
 
-namespace BookLib {
+namespace Book_lib {
 
     class Library {
-    private:
-        std::vector<Patron> patrons;
-        std::vector<Book> books;
+    public:
 
+    private:
         struct Transaction {
             Book t_book;
             Patron t_patron;
         };
+        std::vector<Patron> patrons;
+        std::vector<Book> books;
+        std::vector<Transaction> transactions;
     };
 }
 
