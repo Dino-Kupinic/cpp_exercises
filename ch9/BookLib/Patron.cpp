@@ -3,3 +3,13 @@
 //
 
 #include "Patron.h"
+
+namespace BookLib {
+    bool hasFees(Patron& user) {
+        return user.get_fees() > 0;
+    }
+
+    void Patron::setFees(const int& value) {
+        fees = value;
+    }
+}

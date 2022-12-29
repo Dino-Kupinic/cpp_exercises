@@ -15,6 +15,7 @@ namespace BookLib {
         std::string get_user_name() const { return user_name; }
         int get_card_number() const { return card_number; }
         int get_fees() const { return fees; }
+        void setFees(const int& value);
     private:
         std::string user_name;
         int card_number;
