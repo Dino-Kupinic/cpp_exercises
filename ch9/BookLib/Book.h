@@ -8,6 +8,9 @@
 #include <iostream>
 
 namespace BookLib {
+    enum class Genre {
+        fiction, nonfiction, periodical, biography, children
+    };
 
     class Book {
     public:
@@ -17,19 +20,32 @@ namespace BookLib {
         std::string get_author() const { return author; }
         std::string get_title() const { return title; }
         std::string get_ISBN() const { return ISBN; }
+        Genre get_genre() const { return genre; }
 
-        void check_in(Book& book);
-        void check_out(Book& book);
+        Book(std::string_view ISBN,
+             std::string_view title,
+             std::string_view author,
+             const int& copyright_date,
+             const bool& book_is_checked,
+             Genre genre);
 
-        Book(std::string ISBN, std::string title, std::string author, int copyright_date, bool book_is_checked);
-        bool is_valid(std::string ISBN);
+        bool is_valid();
+        void check_in();
+        void check_out();
+
     private:
         int copyright_date; // year
         bool book_is_checked;
         std::string author;
         std::string title;
         std::string ISBN;
+        Genre genre;
     };
+
+    bool operator== (const Book& b1, const Book& b2);
+    bool operator!= (const Book& b1, const Book& b2);
+    std::ostream& operator<< (std::ostream& os, const Book& book);
+    std::string getGenreValue(Genre g);
 }
 
 int ch9_exercise5_6_7_8_9();

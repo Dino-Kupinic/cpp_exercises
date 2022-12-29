@@ -12,6 +12,7 @@
 #include "ch9/ch9.h"
 #include "ch9/ch9_drill/ch9_drill.h"
 #include "ch9/BookLib/Book.h"
+#include "ch9/BookLib/Patron.h"
 
 
 int main() {
