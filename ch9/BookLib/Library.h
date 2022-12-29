@@ -14,7 +14,8 @@ namespace Book_lib {
 
     class Library {
     public:
-
+        void add_book(const Book& b);
+        void add_patron(const Patron& p);
     private:
         struct Transaction {
             Book t_book;
