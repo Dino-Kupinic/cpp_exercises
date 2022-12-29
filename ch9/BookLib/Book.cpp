@@ -11,7 +11,14 @@ namespace BookLib {
     }
 
     bool Book::is_valid(std::string ISBN) {
-        if (ISBN.length() > 13) return false;
+        constexpr int ISBN_SIZE {13};
+
+        if (ISBN.length() != ISBN_SIZE) return false;
+
+        for (int i = 0; i < ISBN_SIZE; ++i) {
+            char digitCheck {ISBN[i]};
+            if (digitCheck < '0' || digitCheck > '9') return false;
+        }
         return true;
     }
 
