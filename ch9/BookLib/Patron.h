@@ -5,7 +5,6 @@
 #ifndef CPP_EXERCISES_PATRON_H
 #define CPP_EXERCISES_PATRON_H
 
-
 #include <iostream>
 
 namespace Book_lib {

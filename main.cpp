@@ -13,10 +13,11 @@
 #include "ch9/ch9_drill/ch9_drill.h"
 #include "ch9/BookLib/Book.h"
 #include "ch9/BookLib/Patron.h"
+#include "ch10/ch10.h"
 
 
 int main() {
-    ch9_exercise5_6_7_8_9();
-
+    ch10_drill();
+    
     return 0;
 }
